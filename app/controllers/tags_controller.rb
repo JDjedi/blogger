@@ -7,14 +7,14 @@ class TagsController < ApplicationController
 		@tag = Tag.all
 	end
 
-	def destroy
-		@tag = Tag.destroy(params[:id])
+	#def destroy
+		#@tag = Tag.destroy(params[:id])
 
-		redirect_to tags_path
-	end
+		#redirect_to tags_path
+	#end
 
-	def edit
-		@tag = Tag.find(params[:id])
-	end
+	#def edit
+		#@tag = Tag.find(params[:id])
+	#end
 end
 
